@@ -1114,7 +1114,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 100px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1581,6 +1581,16 @@ header .logo a {
 .button-section [class*=""] .button:first-child {
 	margin-right: 4rem;
 }
+
+#skill-table {
+	margin:0 10% 10% 10%;
+    width:80%
+	border-width: 0;
+	max-width: 100%;
+	font-family: "lora-regular", sans-serif;
+	color: rgba(255, 255, 255, 0.7);	
+}
+
 
 /**
  * responsive:
@@ -2266,7 +2276,7 @@ header .logo a {
  */
 #contact {
 	background: #151515;
-	padding-top: 12rem;
+	padding-top: 5rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
